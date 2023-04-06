@@ -1,0 +1,30 @@
+.search-container {
+    display: flex;
+    padding: 24px;
+    gap: 10px;
+}
+
+.search-btn {
+    padding: 10px;
+    background-color: #29374c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.search-btn:hover {
+    background-color: #1d2736;
+}
+
+.search-element {
+    background-color: #29374c;
+    height: 50px;
+    line-height: 50px;
+    outline: none;
+    padding-inline: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.search-element:hover {
+    background-color: #1d2736;
+}

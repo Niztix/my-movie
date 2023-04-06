@@ -1,0 +1,57 @@
+@import url(./searchbar.css);
+@import url(./appbar.css);
+@import url(./movielist.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+    /* font-size */
+    --fs-heading: 4rem;
+    --fs-title-lg: 2.6rem;
+    --fs-title: 2rem;
+    --fs-body: 1.8rem;
+    --fs-button: 1.5;
+    --fs-label: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input,
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+}
+
+input { width: 100%; }
+
+button { cursor: pointer; }
+
+img { height: auto; }
+
+a,
+button {
+    display: block;
+}
+
+li { list-style-type: none; }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-color: #030b16;
+    color: #fff;
+    font-size: var(--fs-body);
+}
